@@ -1,0 +1,382 @@
+body{
+  background-color: #FFFDF6;
+  }
+  .vid{
+  display: flex;
+  justify-content: center;
+  }
+  .vid1{
+  display: flex;
+  justify-content: center;
+  }
+  #myVideo2{
+  width: 100%;
+  }
+  h1{
+  font-size: 45px;
+  font-family: 'Gideon Roman', serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  }
+  h2{
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  }
+  h4{
+  font-family: 'Open Sans', sans-serif;
+  }
+  p{
+  font-family: 'Open Sans', sans-serif;
+  }
+  .centered,.centered2,.centered3{
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  }
+  .container .btn {
+  position: absolute;
+  top: 2180px;
+  left: 625px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+  }
+  .container2 .btn2 {
+  position: absolute;
+  top: 3690px;
+  left: 625px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+  }
+  .container3 .btn3 {
+  position: absolute;
+  top: 5000px;
+  left: 625px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border: none;
+  cursor: pointer;
+  }
+  .btn, .btn2,.btn3{
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  background-color: #fcfafa;
+  font-size: 20px;
+  border-radius: 10px;
+  }
+  .btn:hover {
+  background-color:#cfa767;
+  }
+  .btn2:hover{
+  background-color:#cfa767;
+  }
+  .btn3:hover{
+  background-color:#cfa767;
+  }
+  .seemore{
+  color: rgb(6, 6, 6);
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  }
+  .centered {
+  position: absolute;
+  top: 2120px;
+  left: 620px;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  text-transform: uppercase;
+  }
+  .centered2 {
+  position: absolute;
+  top: 3625px;
+  left: 620px;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  text-transform: uppercase;
+  }
+  .centered3 {
+  position: absolute;
+  top:4946px;
+  left: 620px;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  text-transform: uppercase;
+  }
+  hr{
+  background-color: #cfa767;
+  height: 2px;
+  border: none;
+  width: 90%;
+  }
+  .right{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(28, 28, 28);
+  }
+  h4{
+  color: rgb(161, 163, 163);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  }
+  .media{
+  display: flex;
+  justify-content:center;
+  background-color: rgb(28, 28, 28);
+  }
+  .insta, .what {
+  color: rgb(161, 163, 163);
+  }
+  .white{
+  width: 0%;
+  }
+  @media all and (max-width: 992px){
+  h1{
+  font-size: 35px;
+  }
+  h4{
+  font-size: 20px;
+  }
+  .container .btn{
+  position: absolute;
+  top: 1770px;
+  left: 360px;
+  }
+  .centered {
+  position: absolute;
+  top: 1690px;
+  left: 410px;
+  font-size: 25px;
+  }
+  .container2 .btn2 {
+  position: absolute;
+  top: 2855px;
+  left: 420px;
+  }
+  .centered2 {
+  position: absolute;
+  top: 261%;
+  left: 57%;
+  font-size: 25px;
+  }
+  .centered3 {
+  position: absolute;
+  top: 356%;
+  left: 57%;
+  font-size: 25px;
+  }
+  .container3 .btn3 {
+  position: absolute;
+  top: 366%;
+  left: 50%;
+  }
+  }
+  @media all and (max-width: 768px){
+  h1{
+  font-size: 40px;
+  }
+  h4{
+  font-size: 25px;
+  }
+  }
+  @media all and (max-width: 480px){
+  h1{
+  font-size: 21px;
+  }
+  h2{
+  font-size: 19px;
+  }
+  .btn, .btn2,.btn3{
+  width: 170px;
+  height: 55px;
+  padding: 10px;
+  font-size: 15px;
+  }
+  .container .btn{
+  position: absolute;
+  top: 1385px;
+  left: 220px;
+  }
+  .centered {
+  position: absolute;
+  top: 1330px;
+  left: 235px;
+  font-size: 19px;
+  }
+  .container2 .btn2 {
+  position: absolute;
+  top: 1900px;
+  left: 220px;
+  }
+  .centered2 {
+  position: absolute;
+  top: 1841px;
+  left: 235px;
+  font-size: 19px;
+  }
+  .centered3 {
+  position: absolute;
+  top: 2381px;
+  left: 235px;
+  font-size: 19px;
+  }
+  .container3 .btn3 {
+  position: absolute;
+  top: 2440px;
+  left: 220px;
+  }
+  h4{
+  font-size: 15px;
+  }
+  }
+  @media all and (max-width: 420px){
+  h1{
+  font-size: 20px;
+  }
+  h2{
+  font-size: 18px;
+  }
+  .container .btn{
+  position: absolute;
+  top: 1530px;
+  left: 205px;
+  }
+  .centered {
+  position: absolute;
+  top: 1470px;
+  left: 220px;
+  font-size: 16px;
+  }
+  .container2 .btn2 {
+  position: absolute;
+  top: 2025px;
+  left: 205px;
+  }
+  .centered2 {
+  position: absolute;
+  top: 1965px;
+  left: 220px;
+  font-size: 16px;
+  }
+  .centered3 {
+  position: absolute;
+  top: 2480px;
+  left: 220px;
+  font-size: 16px;
+  }
+  .container3 .btn3 {
+  position: absolute;
+  top: 2540px;
+  left: 205px;
+  }
+  h4{
+  font-size: 11px;
+  }
+  }
+  @media all and (max-width: 380px){
+  h1{
+  font-size: 21px;
+  }
+  h2{
+  font-size: 19px;
+  }
+  .container .btn{
+  position: absolute;
+  top: 1310px;
+  left: 190px;
+  }
+  .centered {
+  position: absolute;
+  top: 1260px;
+  left: 200px;
+  font-size: 18px;
+  }
+  .container2 .btn2 {
+  position: absolute;
+  top: 1760px;
+  left: 190px;
+  }
+  .centered2 {
+  position: absolute;
+  top: 1710px;
+  left: 200px;
+  font-size: 18px;
+  }
+  .centered3 {
+  position: absolute;
+  top: 2185px;
+  left: 200px;
+  font-size: 18px;
+  }
+  .container3 .btn3 {
+  position: absolute;
+  top: 2235px;
+  left: 190px;
+  }
+  .btn, .btn2,.btn3{
+  width: 160px;
+  }
+  h4{
+  font-size: 12px;
+  }
+  .insta, .what {
+  width: 25px;
+  margin-right:30px;
+  }
+  }
+  @media all and (max-width: 320px){
+  h1{
+  font-size: 18px;
+  }
+  h2{
+  font-size: 16px;
+  }
+  .btn, .btn2,.btn3{
+  width: 170px;
+  height: 45px;
+  padding: 5px;
+  font-size: 13px;
+  }
+  .container .btn{
+  position: absolute;
+  top: 1390px;
+  left: 160px;
+  }
+  .centered {
+  position: absolute;
+  top: 1340px;
+  left: 170px;
+  font-size: 15px;
+  }
+  .container2 .btn2 {
+  position: absolute;
+  top: 1778px;
+  left: 160px;
+  }
+  .centered2 {
+  position: absolute;
+  top: 1728px;
+  left: 170px;
+  font-size: 15px;
+  }
+  .centered3 {
+  position: absolute;
+  top: 2130px;
+  left: 170px;
+  font-size: 15px;
+  }
+  .container3 .btn3 {
+  position: absolute;
+  top: 2180px;
+  left: 160px;
+  }
+  .btn, .btn2,.btn3{
+  width: 130px;
+  }
+  h4{
+  font-size: 11px;
+  }
+  }

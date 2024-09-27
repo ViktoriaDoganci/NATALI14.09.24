@@ -1,0 +1,95 @@
+.collected3 {
+    display: flex;
+    justify-content: center;
+  }
+  h2{
+      font-size: 35px; 
+       font-family: 'Open Sans', sans-serif;
+     
+  }
+  hr{
+      background-color:#cfa767;
+      height: 2px;
+      border: none;
+      width: 90%;
+  }
+  .media{
+      display: flex;
+      justify-content:center;
+      background-color: rgb(28, 28, 28);
+  }
+  .insta, .what {
+      color: rgb(161, 163, 163);
+  }
+  h4{
+      color: rgb(161, 163, 163);
+      font-size: 30px;
+  }
+  .right{
+      display: flex;
+      justify-content: center;
+      background-color: rgb(28, 28, 28);
+  }
+  
+  @media all and (max-width: 992px){
+    
+    h2{
+      font-size: 40px;
+     }
+      h4{
+    font-size: 20px; 
+  }
+     }
+  
+  @media all and (max-width: 768px){
+    
+        h2{
+    font-size: 30px; 
+  }
+     h4{
+    font-size: 25px; 
+  }
+  }
+  
+   @media all and (max-width: 480px){
+    
+        h2{
+      font-size: 25px; 
+  }
+        h4{
+    font-size: 17px; 
+  }
+  
+     }
+  @media all and (max-width: 420px){
+      h4{
+    font-size: 13px; 
+  }
+    }
+  
+    @media all and (max-width: 380px){
+        h2{
+      font-size: 20px;
+     }
+       h4{
+    font-size: 13px; 
+  }
+      .insta, .what {
+      width: 15%;
+      margin-left:80px;  
+  }
+  }
+   @media all and (max-width: 320px){
+        h1{
+      font-size: 25px; 
+    
+  }
+     h4{
+    font-size: 11px; 
+  }
+     .insta, .what {
+      width: 20%;
+      margin-left:40px;
+  }
+     
+  }
